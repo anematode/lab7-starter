@@ -58,7 +58,7 @@ function saveRecipesToStorage(recipes) {
 	// B1. TODO - Complete the functionality as described in this function
 	//            header. It is possible in only a single line, but should
 	//            be no more than a few lines.
-	localStorage.setItem('recipe', JSON.stringify(recipes));
+	localStorage.setItem('recipes', JSON.stringify(recipes));
 }
 
 
@@ -117,7 +117,7 @@ function initFormHandler() {
 	// B12. TODO - Clear the local storage
 	// B13. TODO - Delete the contents of <main>
 	clearButton.addEventListener('click', function() {
-		
+
 		localStorage.clear(); //B12
 
 		//B13
